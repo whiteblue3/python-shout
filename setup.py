@@ -6,7 +6,7 @@ import os
 import sys
 import setuptools
 
-ver = '0.2.6'
+ver = '0.2.7'
 
 with open("README", "r") as fh:
     long_description = fh.read()
@@ -61,9 +61,9 @@ shout = Extension('shout', sources = ['shout.c'],
                   libraries = libsonly)
 
 # data_files = []
-setup (name = 'python-shout',
+setup (name = 'python-shout-aac',
        version = ver,
-       description = 'Bindings for libshout 2',
+       description = 'Bindings for libshout 2 with support aac',
        long_description=long_description,
        url = 'http://icecast.org/download.php',
        author = 'Brendan Cully',
