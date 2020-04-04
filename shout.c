@@ -159,6 +159,7 @@ static kv_strint ShoutProtocolMap[] = {
 static kv_strint ShoutFormatMap[] = {
   { "ogg",    SHOUT_FORMAT_OGG },
   { "mp3",    SHOUT_FORMAT_MP3 },
+  { "aac",    SHOUT_FORMAT_AAC },
   { "vorbis", SHOUT_FORMAT_OGG }, /* for backwards compatibility */
   { "webm",   SHOUT_FORMAT_WEBM },
   { NULL, 0 }
